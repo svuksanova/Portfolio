@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <aside class="sidebar">
+        <img src="img/me.png" alt="My Photo" class="profile-pic" />
+        <h1>Stefani Vuksanova</h1>
+        <h2>Software Engineering Student</h2>
+        <p>Curious and passionate about building clean and inclusive digital experiences. I love bringing ideas to life through code.</p>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+        </nav>
+
+        <div class="socials">
+            <a href="vuksanovastefani@gmail.com" target="_blank"><img src="img/mail.svg" alt="Email"></a>
+            <a href="https://github.com/svuksanova" target="_blank"><img src="img/github.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/stefani-vuksanova-487286253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://instagram.com/svuksanova" target="_blank"><img src="img/ig.svg" alt="Instagram"></a>
+        </div>
+
+    </aside>
+
+    <main class="content">
+        <section id="about" class="section">
+            <p>
+                I'm currently studying Software Engineering at FINKI – Faculty of Computer Science and Engineering in Skopje.
+                I'm passionate about building applications that solve real-world problems. My interests include full-stack development, data analysis, and creative coding.
+                <br><br>
+                I’m constantly learning and working on self-initiated projects to sharpen my skills and explore different areas of tech.
+            </p>
+        </section>
+
+        <section id="experience" class="section">
+            <p class="date-range">2022 — PRESENT</p>
+            <h3>Student & Self-Taught Developer</h3>
+            <p class="sub-roles">FINKI — Ss. Cyril and Methodius University</p>
+            <p class="description">
+                I don’t have formal work experience yet, but I’ve spent the last few years learning software engineering fundamentals, participating in student projects, and building personal projects.
+                <br><br>
+                Through my coursework and self-initiated work, I've developed a strong foundation in programming, databases, web development, and working with APIs.
+            </p>
+            <div class="tech-stack">
+                <span>Python</span><span>Java</span><span>HTML</span><span>CSS</span>
+                <span>JavaScript</span><span>Flask</span><span>SQLite</span><span>Chart.js</span>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="project-row">
+                <a href="https://github.com/svuksanova/DIANS_final" target="_blank">
+                    <img src="img/project1.png" alt="Stock App Screenshot" class="project-thumb" />
+                </a>
+                <div class="project-text">
+                    <p><strong>Stock Price Analysis App</strong> — A data-driven web app for analyzing stock prices from the Macedonian Stock Exchange.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Flask</span><span>Chart.js</span><span>SQLite</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-row">
+                <a href="https://github.com/svuksanova/PomodoroApp" target="_blank">
+                    <img src="img/project2.png" alt="Pomodoro App Screenshot" class="project-thumb" />
+                </a>
+                <div class="project-text">
+                    <p><strong>Pomodoro Productivity Timer</strong> — A simple and effective productivity timer that uses the Pomodoro technique to help users stay focused and avoid burnout. Built with JavaScript and .NET.</p>
+                    <div class="tech-stack">
+                        <span>JavaScript</span><span>.NET</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
