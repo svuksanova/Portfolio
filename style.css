@@ -251,16 +251,7 @@ html {
     }
 }
 
-@media (max-width: 480px) {
-    .project img,
-    .project-thumb {
-        width: 260px !important;
-        height: 150px !important;
-        width: none !important;
-        object-fit: cover !important;
-        display: block;
-    }
-}
+
 
 
 
