@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9c657803-cc9a-4d1f-989c-f4479d242f5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pomodoroApp.mp4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/img/desktop.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754322478184</updated>
       <workItem from="1754322479247" duration="10517000" />
-      <workItem from="1754383641175" duration="1288000" />
+      <workItem from="1754383641175" duration="10456000" />
     </task>
     <servers />
   </component>

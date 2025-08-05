@@ -12,6 +12,7 @@ body {
     justify-content: center;
     line-height: 1.6;
     padding-top: 2rem;
+    font-size: 16px;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
     position: sticky;
     top: 2rem;
     height: fit-content;
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 .sidebar h1 {
@@ -36,12 +37,12 @@ body {
 }
 
 .sidebar h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #94a3b8;
 }
 
 .sidebar p {
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     color: #94a3b8;
 }
 
@@ -88,8 +89,8 @@ body {
 
 .content {
     flex: 1;
-    padding-left: 3rem;
-    margin-left: 1rem;
+    padding-left: 3.5rem;
+    margin-left: 2.5rem;
 }
 
 .section {
@@ -144,6 +145,7 @@ body {
     max-width: 100%;
     border-radius: 1rem;
     border: 1px solid #334155;
+    object-fit: cover;
 }
 
 .project-row {
@@ -154,8 +156,9 @@ body {
 }
 
 .project-thumb {
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 1rem;
     border: 1px solid #334155;
     flex-shrink: 0;
@@ -188,3 +191,57 @@ body {
 .socials img:hover {
     transform: scale(1.1);
 }
+
+.tech-stack span {
+    font-size: 0.8rem;
+}
+
+.project-thumb:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 2rem;
+        position: static;
+
+        /* Add the layout structure */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+
+    .content {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .project-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-thumb {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .section {
+        padding: 0 1rem;
+    }
+}
+
+
